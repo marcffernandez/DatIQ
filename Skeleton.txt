@@ -1,0 +1,36 @@
+datIQ-portfolio/
+│
+├── data/                  # Datasets y CSV de ejemplo (no confidenciales)
+│   ├── clientes.csv
+│   ├── piezas.csv
+│   ├── ventas.csv
+│   └── ...
+│
+├── scripts/               # Scripts Python para cada servicio
+│   ├── __init__.py
+│   ├── limpieza.py        # Limpieza de datos (detecta/corrige errores)
+│   ├── dashboard.py       # Generación de KPIs o export a PDF
+│   ├── scraping.py        # Scraping de competencia
+│   ├── prediccion.py      # Análisis predictivo con Prophet/XGBoost
+│   └── utils.py           # Funciones compartidas (conexión DB, helpers)
+│
+├── notebooks/             # Jupyter/Colab notebooks de exploración
+│   ├── ExploracionVentas.ipynb
+│   ├── LimpiezaEjemplo.ipynb
+│   └── PrediccionVentas.ipynb
+│
+├── dashboards/            # Exportaciones de Power BI, Looker Studio, etc.
+│   ├── kpis_dashboard.pbix
+│   └── ventas_dashboard.pdf
+│
+├── agents/                # Flujos de n8n / Flowise (JSON o YAML)
+│   ├── agente_dashboard.json
+│   ├── agente_prediccion.json
+│   └── agente_scraping.json
+│
+├── .env                   # Variables de entorno (oculto con .gitignore)
+├── .env.example           # Plantilla sin credenciales
+├── .gitignore             # Para ocultar .env y otros ficheros sensibles
+├── requirements.txt       # Librerías necesarias (SQLAlchemy, pandas, prophet, etc.)
+├── README.md              # Explicación general del proyecto (para GitHub)
+└── LICENSE                # Licencia del repo (ej: MIT)
