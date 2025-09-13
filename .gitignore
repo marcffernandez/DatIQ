@@ -10,3 +10,7 @@ __pycache__/
 
 # Ignorar datasets pesados
 data/*.csv
+
+#Ignorar archivos de RStudio y iOS
+.DS_Store
+.Rhistory
