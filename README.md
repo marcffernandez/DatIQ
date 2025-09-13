@@ -1,22 +1,19 @@
 # DatIQ Portfolio 🚀  
 
-Este repositorio contiene un proyecto completo de *Business Intelligence* y *Agentes IA* aplicado a una empresa ficticia de piezas de desguace.  
-El objetivo es demostrar un stack moderno de **Data Partner**: desde el almacenamiento de datos hasta la automatización de reportes con IA.  
+Este repositorio contiene un proyecto completo de *Business Intelligence* y *Agentes IA* aplicado a una empresa ficticia de piezas de desguace. La idea del proyecto DatIQ consiste en ofrecer un conjunto de servicios basados en automatizaciones y soluciones integradas (dashboards, scraping web comparando precios con los competidores, análisis predictivos, etc).   
 
 ---
 
 ## 📂 Estructura del proyecto
-datIQ-portfolio/
-│
-├── data/ # Datasets ficticios en CSV
-├── scripts/ # Scripts Python organizados por servicio
-│ └── utils.py # Conexión a Supabase
-├── notebooks/ # Notebooks de exploración y pruebas
-├── dashboards/ # Dashboards exportados (Power BI / Looker Studio)
-├── agents/ # Flujos de n8n y Flowise
-├── .env.example # Plantilla de variables de entorno
-├── requirements.txt # Dependencias de Python
-└── README.md # Este archivo
+
+- /Data
+- /Scripts
+- /Notebooks
+- /Dashboards
+- /Agents
+- .env.example
+- Requirements.txt
+- README.md
 
 ---
 
